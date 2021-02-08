@@ -40,3 +40,7 @@ Replace the IP with the controller's IP.
 curl --header "Content-Type: application/x-www-form-urlencoded" --request POST --data 'power_state=on&mode=dry&temperature=27&fan=silent&swing_v=lowest' http://192.168.<YOUR>.<IP>/handle_ac
 ```
 
+# Sample frontend
+Currently the server is responding to requests from a Node Red application that looks like the below:
+
+<img src="images/nodered.png" width="50%">
